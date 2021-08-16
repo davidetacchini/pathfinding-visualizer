@@ -29,7 +29,7 @@ Check out the images [here](https://github.com/davidetacchini/pathfinding-visual
 
 ### Greedy best-first
 - Weighted
-- Does not guarantees the shortest path
+- Does not guarantee the shortest path
 - Uses heuristic to compute end vertex position
 
 ### A*
@@ -39,7 +39,7 @@ Check out the images [here](https://github.com/davidetacchini/pathfinding-visual
 
 ### Depth-first search
 - Unweighted
-- Does not guarantees the shortest path
+- Does not guarantee the shortest path
 - Pretty bad algorithm for pathfinding
 
 ### Breadth-first search
