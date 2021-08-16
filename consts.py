@@ -47,8 +47,8 @@ COLOR_LOOKUP = {
 LEGEND = {
     "Start Vertex": Color.GREEN,
     "End Vertex": Color.RED,
-    "Visiting": Color.DARK_CYAN,
-    "Visited": Color.CYAN,
+    "Visiting": Color.CYAN,
+    "Visited": Color.DARK_CYAN,
     "Wall": Color.DARK_GREY_2,
     "Weight": Color.WHITE,
     "Path": Color.YELLOW,
