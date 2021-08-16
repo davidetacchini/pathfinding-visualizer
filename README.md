@@ -19,22 +19,22 @@ A pathfinding visualizer made in Python using pygame. Includes:
 ## Showcase
 
 ### Dijkstra
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png" alt="Dijkstra" style="width:400px;"/>
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png" alt="Greedy" style="width:300px;"/>
 
 ### Greedy
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png" alt="Greedy" style="width:400px;"/>
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/greedy.png" alt="Greedy" style="width:300px;"/>
 
 ### A*
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/astar.png" alt="A*" style="width:400px;"/>
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/astar.png" alt="A*" style="width:300px;"/>
 
 ### Depth-first search
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dfs.png" alt="Depth-first search" style="width:400px;"/>
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dfs.png" alt="Depth-first search" style="width:300px;"/>
 
 ### Breadth-first search
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png" alt="Breadth-first search" style="width:400px;"/>
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png" alt="Breadth-first search" style="width:300px;"/>
 
 ### Prim's algorithm
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png" alt="Prim's Algorithm" style="width:400px;"/>
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png" alt="Dijkstra" style="width:300px;"/>
 
 ## Links
 
