@@ -11,30 +11,43 @@ A pathfinding visualizer made in Python using pygame. Includes:
 
 ## Controls
 
-- Right Mouse Button click: either set or remove both the start and the end vertex.
-- Left Mouse Button hold: draw walls.
-- Right Mouse Button hold: delete walls.
-- Right Mouse Button hold along with <kbd>W</kbd>: add weights.
+- Right mouse button click: either set or remove both the start and the end vertex.
+- Left mouse button hold: draw walls.
+- Right mouse button hold: delete walls.
+- Right mouse button hold along with <kbd>W</kbd>: add weights.
 
-## Showcase
+## Demo
+
+Check out the images [here](https://github.com/davidetacchini/pathfinding-visualizer/tree/main/assets/showcase)
+
+## Algorithms
 
 ### Dijkstra
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png" alt="Greedy" style="width:300px;"/>
+- Weighted
+- Guarantees the shortest path
+- Father of the pathfinding algorithms
 
-### Greedy
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/greedy.png" alt="Greedy" style="width:300px;"/>
+### Greedy best-first
+- Weighted
+- Does not guarantees the shortest path
+- Uses heuristic to compute end vertex position
 
 ### A*
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/astar.png" alt="A*" style="width:300px;"/>
+- Weighted
+- Guarantees the shortest path
+- The best algorithm for pathfinding
 
 ### Depth-first search
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dfs.png" alt="Depth-first search" style="width:300px;"/>
+- Unweighted
+- Does not guarantees the shortest path
+- Pretty bad algorithm for pathfinding
 
 ### Breadth-first search
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png" alt="Breadth-first search" style="width:300px;"/>
+- Unweighted
+- Guarantess the shortest path
 
-### Prim's algorithm
-<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png" alt="Dijkstra" style="width:300px;"/>
+### Prim's Algorithm
+- Usuful to generate random mazes
 
 ## Links
 
