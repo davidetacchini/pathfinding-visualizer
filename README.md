@@ -14,7 +14,7 @@ A pathfinding visualizer made in Python using pygame. Includes:
 - Right Mouse Button click: either set or remove both the start and the end vertex.
 - Left Mouse Button hold: draw walls.
 - Right Mouse Button hold: delete walls.
-- Right Mouse Button hold along with <kbd>W</kbd>: add weights to vertices.
+- Right Mouse Button hold along with <kbd>W</kbd>: add weights.
 
 [prim]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png "Prim"
 [dijkstra]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png "Dijkstra"
@@ -24,22 +24,22 @@ A pathfinding visualizer made in Python using pygame. Includes:
 [bfs]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png "BFS"
 
 ## Dijkstra
-[dijkstra]
+![dijkstra][dijkstra]
 
 ## Greedy
-[greedy]
+![greedy][greedy]
 
 ## A*
-[astar]
+![astar][astar]
 
 ## Depth-first search
-[dfs]
+![dfs][dfs]
 
 ## Breadth-first search
-[bfs]
+![bfs][bfs]
 
 ## Prim's algorithm
-[prim]
+![prim][prim]
 
 ## Links
 
