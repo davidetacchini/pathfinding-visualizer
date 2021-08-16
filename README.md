@@ -16,12 +16,12 @@ A pathfinding visualizer made in Python using pygame. Includes:
 - Right Mouse Button hold: delete walls.
 - Right Mouse Button hold along with <kbd>W</kbd>: add weights to vertices.
 
-[prim]: https://github.com/davidetacchini/main/assets/showcase/maze.png "Prim"
-[dijkstra]: https://github.com/davidetacchini/main/assets/showcase/maze.png "Dijkstra"
-[greedy]: https://github.com/davidetacchini/main/assets/showcase/maze.png "Greedy"
-[astar]: https://github.com/davidetacchini/main/assets/showcase/maze.png "A*"
-[dsf]: https://github.com/davidetacchini/main/assets/showcase/maze.png "DFS"
-[bfs]: https://github.com/davidetacchini/main/assets/showcase/maze.png "BFS"
+[prim]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png "Prim"
+[dijkstra]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png "Dijkstra"
+[greedy]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/greedy.png "Greedy"
+[astar]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/astar.png "A*"
+[dsf]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dfs.png "DFS"
+[bfs]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png "BFS"
 
 ## Dijkstra
 [dijkstra]
