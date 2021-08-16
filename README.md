@@ -44,7 +44,7 @@ Check out the images [here](https://github.com/davidetacchini/pathfinding-visual
 
 ### Breadth-first search
 - Unweighted
-- Guarantess the shortest path
+- Guarantees the shortest path
 
 ### Prim's Algorithm
 - Usuful to generate random mazes
