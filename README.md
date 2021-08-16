@@ -16,30 +16,25 @@ A pathfinding visualizer made in Python using pygame. Includes:
 - Right Mouse Button hold: delete walls.
 - Right Mouse Button hold along with <kbd>W</kbd>: add weights.
 
-[prim]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png "Prim"
-[dijkstra]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png "Dijkstra"
-[greedy]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/greedy.png "Greedy"
-[astar]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/astar.png "A*"
-[dsf]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dfs.png "DFS"
-[bfs]: https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png "BFS"
+## Showcase
 
-## Dijkstra
-![dijkstra][dijkstra]
+### Dijkstra
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png" alt="Dijkstra" style="width:400px;"/>
 
-## Greedy
-![greedy][greedy]
+### Greedy
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dijkstra.png" alt="Greedy" style="width:400px;"/>
 
-## A*
-![astar][astar]
+### A*
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/astar.png" alt="A*" style="width:400px;"/>
 
-## Depth-first search
-![dfs][dfs]
+### Depth-first search
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/dfs.png" alt="Depth-first search" style="width:400px;"/>
 
-## Breadth-first search
-![bfs][bfs]
+### Breadth-first search
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/bfs.png" alt="Breadth-first search" style="width:400px;"/>
 
-## Prim's algorithm
-![prim][prim]
+### Prim's algorithm
+<img src="https://github.com/davidetacchini/pathfinding-visualizer/blob/main/assets/showcase/prim.png" alt="Prim's Algorithm" style="width:400px;"/>
 
 ## Links
 
