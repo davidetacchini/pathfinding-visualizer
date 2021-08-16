@@ -85,8 +85,7 @@ class Window:
                 button.text = "Continue" if self.paused else "Pause"
             elif key == "fps":
                 button.text = FPS_LOOKUP.get(self.fps)
-                # if generating a maze or path, fps are set to 0 and cannot
-                # be changed
+                # if generating a maze, fps are set to 0 and cannot be changed
                 button.bg_color = Color.RED if self.fps == 0 else Color.WHITE
             button(self.screen, self.font)
 
