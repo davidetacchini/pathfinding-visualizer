@@ -54,7 +54,7 @@ def main():
                     grid.reset()
                 elif window.buttons["prim"].is_clicked(pos, event):
                     start_vertex = end_vertex = None
-                    prim(grid, window)
+                    start_vertex, end_vertex = prim(grid, window)
                 elif window.buttons["fps"].is_clicked(pos, event):
                     if window.fps == 60:
                         window.fps = 90

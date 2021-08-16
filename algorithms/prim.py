@@ -65,9 +65,11 @@ def prim(grid, window):
             vertex.state = State.WALL
         elif vertex.state is State.VISITING: # reset visiting vertices
             vertex.clear()
-
+   
     window.executing = False
     window.fps = 60 # set fps back to 60
+
+    return set_start_end(grid)
 
 def visiting_neighbors(vertex):
     return sum(1 for n in vertex.neighbors if n.state is State.VISITING)
@@ -82,3 +84,20 @@ def set_walls(vertex, grid, walls, to_skip):
                 neighbor.state = State.WALL
             if (x, y) not in walls: # append to walls if not in already
                 walls.append((x, y))
+
+def set_start_end(grid):
+    start = end = None
+
+    for i in range(grid.rows):
+        if grid()[1][i].is_empty():
+            grid()[0][i].state = State.START
+            start = grid()[0][i]
+            break
+
+    for i in range(grid.cols - 1, 0, -1):
+        if grid()[grid.rows - 2][i].is_empty():
+            grid()[grid.rows - 1][i].state = State.END
+            end = grid()[grid.rows - 1][i]
+            break
+
+    return start, end
